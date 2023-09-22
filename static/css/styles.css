@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/89320.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h5{
+    margin-left: 73%;
+    position: relative;
+    bottom: 10px;
+  }
+
+  h2 {
+    margin-left: 10px;
+  }
+  #category-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #category-form h2 {
+    font-weight: bold;
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  #category-select {
+    width: 10%;
+    padding: 7px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #book-list {
+    margin-top: 20px;
+  }
+  
+  #book-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #book-table th, #book-table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  #add-book-form {
+    margin-top: 20px;
+  }
+  #book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .book {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent; 
+  }
+  
+  .book img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar-brand h2 {
+  color: #000;
+  
+}
+
+.navbar-brand span img {
+  margin-right: 20%;
+}
+
+
+.logout-button {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #000;
+}
+
+.logout-button:hover {
+  background-color: #000;
+}
+
+
+button {
+  border: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 4px;
+  outline: none;
+  max-width: 400px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+}
+
+#selected-books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+#selected-books h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#selected-books-list {
+  list-style: none;
+   padding: 0;
+  margin: 0;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+#selected-books-list li {
+  margin: 5px;
+  
+}
+
+#selected-books button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#selected-books button:hover {
+  background-color: #0056b3;
+}
+
